@@ -1,0 +1,7 @@
+# Heavy deps for neural training only (keep separate from main requirements)
+# Install torch manually per your CUDA/CPU setup: https://pytorch.org/get-started/locally/
+transformers>=4.41
+tokenizers>=0.15
+requests>=2.31
+numpy>=1.26
+tqdm>=4.66

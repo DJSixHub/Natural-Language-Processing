@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# PyTorch & ML artifacts
+*.pt
+*.pth
+*.ckpt
+*.joblib
+*.npz
+
+# Tokenizers
+tokenizer.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model artifacts & training outputs
+model/checkpoints/*.pt
+artifacts/*.npz
+artifacts/*.joblib
+
+# Large JSON datasets (optional - uncomment if too large)
+# Jsons_Scrappeados/*.json
+# representative_recipes.json
+
+# JSONL training data
+distill_train.jsonl
+distill_val.jsonl
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
